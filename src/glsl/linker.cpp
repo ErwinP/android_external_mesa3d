@@ -84,6 +84,8 @@ extern "C" {
 
 #include "main/shaderobj.h"
 
+#include <stddef.h>
+
 /**
  * Visitor that determines whether or not a variable is ever written.
  */
